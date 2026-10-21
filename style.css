@@ -36,3 +36,13 @@
  #events .event-card:hover .art-drawing{transform:rotate(-15deg)!important}
  #events .event-card:hover .art-title,#events .event-card:hover .event-tag{transform:none!important}
 }
+
+.projects{border-top:1px solid var(--line);padding:47px 0 58px}
+.projects .section-head{margin-bottom:9px}
+.projects-intro{color:var(--muted);font-size:14px;margin:0 0 23px}
+.project-card{display:grid;grid-template-columns:185px minmax(0,1fr);align-items:center;gap:29px;background:#f1e6d5;border:1px solid #e4d6c3;border-radius:11px;padding:25px 33px}
+.project-symbol{font-size:118px;line-height:1;color:var(--terracotta);text-align:center}
+.project-copy h3{font-size:27px;line-height:1.15;font-weight:600;margin:9px 0 11px}
+.project-copy p{font-size:13px;color:var(--muted);max-width:610px;margin:0 0 15px}
+.project-copy .text-link{color:var(--terracotta)}
+@media(max-width:560px){.projects{padding:33px 0 42px}.projects-intro{font-size:12px}.project-card{grid-template-columns:72px minmax(0,1fr);gap:13px;padding:17px}.project-symbol{font-size:65px}.project-copy h3{font-size:22px}.project-copy p{font-size:11px}.project-copy .text-link{font-size:10px;gap:7px}}
